@@ -1,0 +1,93 @@
+
+#form_info {
+	/* border-style: none solid none solid; */
+	/* border:2px #000000 solid; */
+	margin: 0px auto;
+	width: 700px;
+	height: 700px;
+	overflow: hidden;
+	transition: transparent;
+	background:linear-gradient(to top,pink,black); 
+/* 	background:linear-gradient(to bottom,#AE5DA1,#E468A2,#004986); */
+}
+input{
+	position: relative;
+	top: 120px;
+	left: 220px;
+	width: 200px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: transparent;
+	
+}
+input::placeholder{
+	color: white;
+}
+#code{
+	position: relative;
+	left: 15px;
+}
+#dynamic{
+	position: relative;
+	left: 440px;
+}
+input[type=checkbox]{
+	display: inline-block;
+}
+#name_1,#pwd_1,#pwd_2,#phone_1,#sex_1{
+	position: relative;
+	top: 145px;
+	left: 150px;
+	color: #CC3333;
+	font-family: "mv boli";
+}
+.div_c_r input{
+	
+}
+input:focus{
+	 outline: none;
+}
+#yanzheng_1{
+	position: relative;
+	top: 145px;
+	left: 150px;
+}
+input[type=checkbox]{
+	
+}
+#check_man{
+	position: relative;
+	top: 110px;
+	left: 110px;
+}
+#Remember1{
+	position: relative;
+	left: 190px;
+}
+#Remember2{
+	position: relative;
+	left: 290px;
+	top: 85px;
+}
+#check_woman{
+	position: relative;
+	top: 75px;
+	left: 205px;
+}
+#submit{
+	font-size: 20px;
+	color: #cc3333;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	background-color: transparent;
+	font-family: "mv boli";
+	position: relative;
+	top: 150px;
+	left: 300px;
+}
+#submit:hover{
+	background-color: #CC3333;
+	color: white;
+	cursor: pointer;
+}

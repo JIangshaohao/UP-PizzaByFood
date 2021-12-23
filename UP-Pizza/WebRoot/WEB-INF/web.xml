@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>UP-Pizza</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFoodServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.AddFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AmountsSelectServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.AmountsSelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AssociategeInfo</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.AssociategeInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AutoLogin</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.AutoLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckLoginTid</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CheckLoginTid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Checkpwd</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.Checkpwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckueExists</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CheckueExists</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CloseOrOpenServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CloseOrOpenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CusdeleteServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CusdeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CusdeletesFoodServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CusdeletesFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CusdelesServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CusdelesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CusTjPageServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CusTjPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerChowBreakfastServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerChowBreakfastServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustPageServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CusUpdateInfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CusUpdateInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CusUpdateTelServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CusUpdateTelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteOutinfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.DeleteOutinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletesOutinfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.DeletesOutinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelProductsListServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.DelProductsListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditFoodServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.EditFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InShowFoodServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.InShowFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MeausgetHanBanServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.MeausgetHanBanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutInfoPageServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.OutInfoPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutinfoSeachServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.OutinfoSeachServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutInfoTktidServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.OutInfoTktidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutSelectBytidServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.OutSelectBytidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutTkinfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.OutTkinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectAllExpres</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.SelectAllExpres</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectAllHanbao</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.SelectAllHanbao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectCountServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.SelectCountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectDingDanFoodTypeServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.SelectDingDanFoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectInfoByTimeDid</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.SelectInfoByTimeDid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectOrderAllServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.SelectOrderAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectOutOrUpServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.SelectOutOrUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowCDServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.ShowCDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowFoodServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.ShowFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowMeausInfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.ShowMeausInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowMonthServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.ShowMonthServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowTodayServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.ShowTodayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowUpdateInfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.ShowUpdateInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateIDOpenServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UpdateIDOpenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateIdServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UpdateIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateInfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UpdateInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMeausInfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UpdateMeausInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateTidCloseServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UpdateTidCloseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserCusServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UserCusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerChowSweetsServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerChowSweetsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerChowHanbaoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerChowHanbaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerChowPictureServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerChowPictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerAddFoodByCartServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerAddFoodByCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerUpdateShoppingCartServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerUpdateShoppingCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerCartServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerCartDeleteFoodServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerCartDeleteFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerChowUpdateFoodNumServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerChowUpdateFoodNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerSeachFoodServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerSeachFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerdeletesScartServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerdeletesScartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerjServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerjServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerRecentlyRemoveServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerRecentlyRemoveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerScartRemoveServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerScartRemoveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerShowRecentlyServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerShowRecentlyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScartSelectAllServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.ScartSelectAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerInsertByDingdan</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerInsertByDingdan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerMeauServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerMeauServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerCartByMeauServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerCartByMeauServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerShowXqServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerShowXqServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePwdServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UpdatePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateStaffInfoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.UpdateStaffInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerdgShowAllServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerdgShowAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerdgtkServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerdgtkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerdgCheckexistence</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerdgCheckexistence</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerShowmasageServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerShowmasageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerWc_update_ydServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerWc_update_ydServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerWcAdd_userordrServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerWcAdd_userordrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerWcExitsServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.CustomerWcExitsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAlsoServlet1</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.addAlsoServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAlsoCusInfoServlet02</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.getAlsoCusInfoServlet02</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAlsoCusServlet02</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.getAlsoCusServlet02</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAlsogetCount1</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.getAlsogetCount1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAlsoServlet</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.addAlsoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAlsoCusInfoServlet01</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.getAlsoCusInfoServlet01</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAlsoCusServlet01</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.getAlsoCusServlet01</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAlsogetCount</servlet-name>
+    <servlet-class>UP_Pizza_End_Servlet.getAlsogetCount</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddFoodServlet</servlet-name>
+    <url-pattern>/AddFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AmountsSelectServlet</servlet-name>
+    <url-pattern>/AmountsSelectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AssociategeInfo</servlet-name>
+    <url-pattern>/AssociategeInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AutoLogin</servlet-name>
+    <url-pattern>/AutoLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckLoginTid</servlet-name>
+    <url-pattern>/CheckLoginTid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Checkpwd</servlet-name>
+    <url-pattern>/Checkpwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckueExists</servlet-name>
+    <url-pattern>/CheckueExists</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CloseOrOpenServlet</servlet-name>
+    <url-pattern>/CloseOrOpenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CusdeleteServlet</servlet-name>
+    <url-pattern>/CusdeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CusdeletesFoodServlet</servlet-name>
+    <url-pattern>/CusdeletesFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CusdelesServlet</servlet-name>
+    <url-pattern>/CusdelesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CusTjPageServlet</servlet-name>
+    <url-pattern>/CusTjPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerChowBreakfastServlet</servlet-name>
+    <url-pattern>/CustomerChowBreakfastServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustPageServlet</servlet-name>
+    <url-pattern>/CustPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CusUpdateInfoServlet</servlet-name>
+    <url-pattern>/CusUpdateInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CusUpdateTelServlet</servlet-name>
+    <url-pattern>/CusUpdateTelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOutinfoServlet</servlet-name>
+    <url-pattern>/DeleteOutinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletesOutinfoServlet</servlet-name>
+    <url-pattern>/DeletesOutinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelProductsListServlet</servlet-name>
+    <url-pattern>/DelProductsListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditFoodServlet</servlet-name>
+    <url-pattern>/EditFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InShowFoodServlet</servlet-name>
+    <url-pattern>/InShowFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MeausgetHanBanServlet</servlet-name>
+    <url-pattern>/MeausgetHanBanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutInfoPageServlet</servlet-name>
+    <url-pattern>/OutInfoPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutinfoSeachServlet</servlet-name>
+    <url-pattern>/OutinfoSeachServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutInfoTktidServlet</servlet-name>
+    <url-pattern>/OutInfoTktidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutSelectBytidServlet</servlet-name>
+    <url-pattern>/OutSelectBytidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutTkinfoServlet</servlet-name>
+    <url-pattern>/OutTkinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAllExpres</servlet-name>
+    <url-pattern>/SelectAllExpres</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAllHanbao</servlet-name>
+    <url-pattern>/SelectAllHanbao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCountServlet</servlet-name>
+    <url-pattern>/SelectCountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectDingDanFoodTypeServlet</servlet-name>
+    <url-pattern>/SelectDingDanFoodTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectInfoByTimeDid</servlet-name>
+    <url-pattern>/SelectInfoByTimeDid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectOrderAllServlet</servlet-name>
+    <url-pattern>/SelectOrderAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectOutOrUpServlet</servlet-name>
+    <url-pattern>/SelectOutOrUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCDServlet</servlet-name>
+    <url-pattern>/ShowCDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowFoodServlet</servlet-name>
+    <url-pattern>/ShowFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowMeausInfoServlet</servlet-name>
+    <url-pattern>/ShowMeausInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowMonthServlet</servlet-name>
+    <url-pattern>/ShowMonthServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTodayServlet</servlet-name>
+    <url-pattern>/ShowTodayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowUpdateInfoServlet</servlet-name>
+    <url-pattern>/ShowUpdateInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateIDOpenServlet</servlet-name>
+    <url-pattern>/UpdateIDOpenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateIdServlet</servlet-name>
+    <url-pattern>/UpdateIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateInfoServlet</servlet-name>
+    <url-pattern>/UpdateInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMeausInfoServlet</servlet-name>
+    <url-pattern>/UpdateMeausInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTidCloseServlet</servlet-name>
+    <url-pattern>/UpdateTidCloseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCusServlet</servlet-name>
+    <url-pattern>/UserCusServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerChowSweetsServlet</servlet-name>
+    <url-pattern>/CustomerChowSweetsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerChowHanbaoServlet</servlet-name>
+    <url-pattern>/CustomerChowHanbaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerChowPictureServlet</servlet-name>
+    <url-pattern>/CustomerChowPictureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerAddFoodByCartServlet</servlet-name>
+    <url-pattern>/CustomerAddFoodByCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerUpdateShoppingCartServlet</servlet-name>
+    <url-pattern>/CustomerUpdateShoppingCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerCartServlet</servlet-name>
+    <url-pattern>/CustomerCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerCartDeleteFoodServlet</servlet-name>
+    <url-pattern>/CustomerCartDeleteFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerChowUpdateFoodNumServlet</servlet-name>
+    <url-pattern>/CustomerChowUpdateFoodNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerSeachFoodServlet</servlet-name>
+    <url-pattern>/CustomerSeachFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerdeletesScartServlet</servlet-name>
+    <url-pattern>/CustomerdeletesScartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerjServlet</servlet-name>
+    <url-pattern>/CustomerjServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerRecentlyRemoveServlet</servlet-name>
+    <url-pattern>/CustomerRecentlyRemoveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerScartRemoveServlet</servlet-name>
+    <url-pattern>/CustomerScartRemoveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerShowRecentlyServlet</servlet-name>
+    <url-pattern>/CustomerShowRecentlyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScartSelectAllServlet</servlet-name>
+    <url-pattern>/ScartSelectAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerInsertByDingdan</servlet-name>
+    <url-pattern>/CustomerInsertByDingdan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerMeauServlet</servlet-name>
+    <url-pattern>/CustomerMeauServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerCartByMeauServlet</servlet-name>
+    <url-pattern>/CustomerCartByMeauServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerShowXqServlet</servlet-name>
+    <url-pattern>/CustomerShowXqServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePwdServlet</servlet-name>
+    <url-pattern>/UpdatePwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStaffInfoServlet</servlet-name>
+    <url-pattern>/UpdateStaffInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerdgShowAllServlet</servlet-name>
+    <url-pattern>/CustomerdgShowAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerdgtkServlet</servlet-name>
+    <url-pattern>/CustomerdgtkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerdgCheckexistence</servlet-name>
+    <url-pattern>/CustomerdgCheckexistence</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerShowmasageServlet</servlet-name>
+    <url-pattern>/CustomerShowmasageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerWc_update_ydServlet</servlet-name>
+    <url-pattern>/CustomerWc_update_ydServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerWcAdd_userordrServlet</servlet-name>
+    <url-pattern>/CustomerWcAdd_userordrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerWcExitsServlet</servlet-name>
+    <url-pattern>/CustomerWcExitsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAlsoServlet1</servlet-name>
+    <url-pattern>/addAlsoServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAlsoCusInfoServlet02</servlet-name>
+    <url-pattern>/getAlsoCusInfoServlet02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAlsoCusServlet02</servlet-name>
+    <url-pattern>/getAlsoCusServlet02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAlsogetCount1</servlet-name>
+    <url-pattern>/getAlsogetCount1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAlsoServlet</servlet-name>
+    <url-pattern>/addAlsoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAlsoCusInfoServlet01</servlet-name>
+    <url-pattern>/getAlsoCusInfoServlet01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAlsoCusServlet01</servlet-name>
+    <url-pattern>/getAlsoCusServlet01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAlsogetCount</servlet-name>
+    <url-pattern>/getAlsogetCount</url-pattern>
+  </servlet-mapping>
+ 
+ 
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
